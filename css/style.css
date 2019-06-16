@@ -1,0 +1,52 @@
+.header {
+	background: #DA70D6;
+	height: 100px;
+	font-family: arial;
+	text-align: center;
+	font-size: 2cm;
+	text-decoration: underline;	}
+.nav {
+	float: left;	
+	background: #9932CC;
+	height: 450px;
+	width: 15%;	}
+
+.aside {
+float: right;
+background: #9932CC;
+height: 450px;
+width: 15%;	 }
+.background {
+	width: 150px; 
+	height: 150px;
+	margin-left: 10px;}
+.article {
+	margin-left: 15%;
+	background: #2E8B57;
+	height: 450px;
+	width: 70%;
+
+}
+.footer {
+	height: 70px;
+	background-image: url(../футер.jpg);}
+.text-nav {
+	text-align: center;
+}
+@media screen and (max-width: 576px) {
+	.aside, .nav  {
+		width: 100%;
+		height: 100px;
+		}
+	 	
+	.article {		
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;}
+	.header {
+		font-size: 1cm;}
+	.background {
+		width: 0px;
+		height: 0px; 
+	}
+}
